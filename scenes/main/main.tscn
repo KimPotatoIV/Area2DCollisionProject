@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3anhgodbc1ya"]
+
+[ext_resource type="PackedScene" uid="uid://baqoauxjk85a7" path="res://scenes/hud/hud.tscn" id="1_iuonh"]
+[ext_resource type="PackedScene" uid="uid://r6vnupmkacx8" path="res://scenes/background/background.tscn" id="2_k2fmo"]
+[ext_resource type="PackedScene" uid="uid://cl3pq80vkw0rl" path="res://scenes/spawner/spawner.tscn" id="3_k2fmo"]
+
+[node name="Main" type="Node2D"]
+
+[node name="HUD" parent="." instance=ExtResource("1_iuonh")]
+
+[node name="Background" parent="." instance=ExtResource("2_k2fmo")]
+
+[node name="Spawner" parent="." instance=ExtResource("3_k2fmo")]
